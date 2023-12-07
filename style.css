@@ -3,10 +3,17 @@ body, h1, h2, p {
   padding: 0;
 }
 
+/* Styl dla całej strony */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
 /* Styl dla nagłówka */
 header {
-  background-color: black;
-  color: white;
+  background-color: #333;
+  color: #fff;
   text-align: center;
   padding: 20px 0;
 }
@@ -21,6 +28,7 @@ main {
 /* Styl dla sekcji o barburce */
 .barburka {
   background-color: #f9f9f9;
+  color: #333;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -32,7 +40,6 @@ main {
 }
 
 .barburka p {
-  color: #555;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -42,7 +49,7 @@ main {
   margin: 20px auto;
   max-width: 100%;
   height: auto;
-  border-radius: 4px;
+  border-radius: 8px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
