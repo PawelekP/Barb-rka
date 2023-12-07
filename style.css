@@ -8,6 +8,16 @@ body {
   background-color: #000;
   color: #fff;
   font-family: Arial, sans-serif;
+  /* Dodanie obrazka tła */
+  background-image: url('wagon.png');
+  background-repeat: repeat-x; /* Powtarzanie obrazka w poziomie */
+  animation: moveWagon 20s linear infinite; /* Animacja dla wagonika */
+}
+
+/* Animacja dla wagonika */
+@keyframes moveWagon {
+  0% { background-position: 0 0; } /* Początkowa pozycja obrazka */
+  100% { background-position: 100% 0; } /* Końcowa pozycja obrazka */
 }
 
 /* Styl dla nagłówka */
